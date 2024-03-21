@@ -1,0 +1,9 @@
+<div class="main">
+	<app-sidebar [ngClass]="gs.isSidebarActive ? 'sidebar-open': 'sidebar-collapsed'"></app-sidebar>
+	<div class="display-section" [ngClass]="gs.isSidebarActive ? 'display-section':'display-section-expand' ">
+		<app-header [ngClass]="gs.isSidebarActive ? 'header-normal':'header-expand'"></app-header>
+		<div class="container-fluid display-content">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+</div>

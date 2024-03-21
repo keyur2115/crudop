@@ -1,0 +1,355 @@
+{
+  "states": [
+    {
+      "name": "Gujarat",
+      "data": [
+        {
+          "img": "assets/img/packages/somnath.png",
+          "place_1": "Dwarka",
+          "place_2": "Somnath",
+          "place_3": "Sasan",
+          "slug": "dwarka-packages",
+          "night": 3,
+          "days": 4,
+          "description": "Dwarka Somnath Tour from Ahmedabad is ideally made for the spiritually inclined and both destination is cover in 3 night 4 days. You will feel spiritual experiences as you entered into the holy land of Dwarka and Somnath. Dwarka is believed to be the mythical kingdom of Lord Krishna while Somnath is known for the famous Somnath Jyotirlinga temple of Lord Shiva. if you are planning this trip than you should plan to visit Dwarka Somnath from the month of July to March because in this time weather is normal.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/mountabu1.jpg",
+          "place_1": "Mount",
+          "place_2": "Abu",
+          "place_3": "Rajasthan",
+          "slug": "best-of-rajastan",
+          "night": 2,
+          "days": 3,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/daman-calling-cab.png",
+          "place_1": "Diu",
+          "place_2": "Daman",
+          "place_3": "",
+          "slug": "diu-and-daman",
+          "night": 4,
+          "days": 3,
+          "description": "Daman and Diu, a union territory in west India, consists of 2 separate areas divided by the Arabian Sea. The Daman Ganga River flows through the coastal town of Daman. Diu is a small island and mainland village.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/sa.png",
+          "place_1": "Statue of Unity",
+          "place_2": "Poicha",
+          "place_3": "",
+          "slug": "statue-of-unity",
+          "night": 2,
+          "days": 3,
+          "description": "Want to go Statue of unity from Ahmedabad? It is located in remote area so direct bus and rail options are limited. Along with that it has many places to see around. So hire a cab is best option. We can offer one day tour from Ahmedabad to Statues of unity and return back with 7 places near by with complete guidance. You can book car/bus/tempo travel to reach statue of unity from Ahmedabad Total Distance : 210 Kms Appox 3.5 Hours to 4 Hours from Ahmedabad via National Express Highway 1 (Ahmedabad – Vadodara).",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/run-of-kuctch-calling-cab.png",
+          "place_1": "Rann of Kutch",
+          "place_2": "",
+          "place_3": "",
+          "slug": "rann-of-kutch",
+          "night": 4,
+          "days": 3,
+          "description": "The Great Rann of Kutch is a salt marsh in the Thar Desert in the Kutch District of Gujarat, India. It is about 7500 km?2; in the area and is reputed to be one of the largest salt deserts in the world. This area has been inhabited by the Kutchi people.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "data": [
+        {
+          "img": "assets/img/packages/JESALMER.jpg",
+          "place_1": "Jesalmer",
+          "place_2": "",
+          "place_3": "Rajasthan",
+          "slug": "best-of-jeselmer",
+          "night": 3,
+          "days": 4,
+          "description": "Jaisalmer, known as the 'Golden City' invites tourists to explore its enchanting desert landscape and rich cultural heritage. Admire the majestic sandstone architecture of Jaisalmer Fort, stroll through the narrow lanes of the ancient town to discover intricately carved havelis, and immerse yourself in the vibrant atmosphere of its bustling bazaars. Experience the romance of the desert with camel safaris, camping under the starlit sky, and enjoying traditional folk performances amidst the dunes. Whether it's exploring historical wonders or indulging in desert adventures, Jaisalmer offers an unforgettable journey into the heart of Rajasthan's charm.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/JODHPUR.jpg",
+          "place_1": "JODHPUR",
+          "place_2": "",
+          "place_3": "Rajasthan",
+          "slug": "best-of-jodhpur",
+          "night": 3,
+          "days": 4,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/Jaipur.jpg",
+          "place_1": "JAIPUR",
+          "place_2": "",
+          "place_3": "Rajasthan",
+          "slug": "best-of-jaipur",
+          "night": 3,
+          "days": 4,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/Udaipur.jpg",
+          "place_1": "UDAIPUR",
+          "place_2": "",
+          "place_3": "Rajasthan",
+          "slug": "best-of-udaipur",
+          "night": 0,
+          "days": 0,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/SHREE NATH JI.jpg",
+          "place_1": "SHREE NATH JI",
+          "place_2": "",
+          "place_3": "Rajasthan",
+          "slug": "best-of-shree-nathji",
+          "night": 2,
+          "days": 3,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maharastra",
+      "data": [
+        {
+          "img": "assets/img/packages/MAHABALESHWAR.jpg",
+          "place_1": "MAHABALESHWAR",
+          "place_2": "",
+          "place_3": "Maharashtra",
+          "slug": "best-of-mahabeleshwar",
+          "night": 2,
+          "days": 3,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/LONAVALA.jpg",
+          "place_1": "LONAVALA",
+          "place_2": "",
+          "place_3": "Maharashtra",
+          "slug": "best-of-lonavala",
+          "night": 0,
+          "days": 0,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/Sirdi.jpg",
+          "place_1": "SIRDI",
+          "place_2": "",
+          "place_3": "Maharashtra",
+          "slug": "best-of-sirdi",
+          "night": 0,
+          "days": 0,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        },
+        {
+          "img": "assets/img/packages/Imejica.jpg",
+          "place_1": "Imejicaa",
+          "place_2": "",
+          "place_3": "Maharashtra",
+          "slug": "best-of-imejicaa",
+          "night": 0,
+          "days": 0,
+          "description": "Gujarat tour packages set the mood right in the minds of the travelers bringing them to this place during vacations. If you endeavor of a vacation trip or plan to go for a vacation in heaven, Gujarat is the right place to opt for. The land of affluent history with splendid tradition, heritage, and culture, Gujarat calls to be the seventh largest state in India situated on the western side of our country. A radiant Indian state, Gujarat is considered to be the most captivating destination spots for domestic and international travelers. You can indeed traverse to this incredible place for many eye catchy reasons. The state of Gujarat is considerably blessed with various attractions like the historic architecture, world-class monuments, exotic locations, temples and different wildlife species. Moreover, Amitabh Bachchan is the brand ambassador of Gujarat Tourism.",
+          "vehicles": [
+            {
+              "car_type": "sedan",
+              "total_persons": 4,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            },
+            {
+              "car_type": "suv",
+              "total_persons": 6,
+              "ac": true,
+              "expense": "Food & Personal Expense"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

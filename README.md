@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Yesterday:
+=> Worked on Zomber front, changes in home page banner and applied the redirect link on it.
+Today:
+=> Working on a zomber front, Applying the home page banner changes to other dashboard pages.

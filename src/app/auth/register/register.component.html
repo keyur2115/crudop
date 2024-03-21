@@ -1,0 +1,48 @@
+<div class="container-fluid position-relative bg-light">
+	<div class="loginBox">
+		<div class="row">
+			<div class="col-md-6 col-lg-4 border loginFormBox">
+				<div class="text-center login-heading">Register</div>
+				<form name="registerForm" #registerForm="ngForm">
+					<div class="form-group mb-2">
+						<label class="form-label" for="firstName">First Name</label>
+						<input class="form-control" id="firstName" name="firstName" [(ngModel)]="registerFormObj.firstName" #firstRef="ngModel" required [ngClass]="firstRef.errors?.['required'] && (firstRef.touched || registerForm.submitted) ? 'invalid-border': '' " >
+					</div>
+
+					<div class="form-group mb-2">
+						<label class="form-label" for="lastName">Last Name</label>
+						<input class="form-control" id="lastName" name="lastName" [(ngModel)]="registerFormObj.lastName" #lastRef="ngModel" required
+						[ngClass]="lastRef.errors?.['required'] && (lastRef.touched || registerForm.submitted) ? 'invalid-border': '' " >
+
+					</div>
+						<div class="form-group mb-2">
+						<label class="form-label" for="userName">User Name</label>
+						<input class="form-control" id="userName" name="userName" [(ngModel)]="registerFormObj.userName" #userNameRef="ngModel" required
+						[ngClass]="userNameRef.errors?.['required'] && (userNameRef.touched || registerForm.submitted) ? 'invalid-border': '' " >
+					</div>
+
+					<div class="form-group mb-2">
+						<label class="form-label" for="email">E-mail</label>
+						<input class="form-control" id="email" name="email" [(ngModel)]="registerFormObj.email" #emailRef="ngModel" required
+						[ngClass]="emailRef.errors?.['required'] && (emailRef.touched || registerForm.submitted) ? 'invalid-border': '' " >
+					</div>	
+
+					<div class="form-group mb-2">
+						<label class="form-label" for="phoneNum">Phone Number</label>
+						<input class="form-control" id="phoneNum" name="phoneNum" [(ngModel)]="registerFormObj.phoneNum" #phoneNumRef="ngModel" required
+						[ngClass]="phoneNumRef.errors?.['required'] && (phoneNumRef.touched || registerForm.submitted) ? 'invalid-border': '' " >
+					</div>
+
+					<div class="submit-btn">
+						<button class="btn btn-primary" (click)="onRegister(registerForm.form)">Register</button>
+					</div>
+
+					<div class="login-path mt-3 text-center">
+						<a [routerLink]="'/auth/login'">Back to Login</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+

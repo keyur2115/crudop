@@ -1,0 +1,31 @@
+<div class="container-fluid position-relative bg-light">
+	<div class="loginBox">
+		<div class="row">
+			<div class="col-md-6 col-lg-4 border loginFormBox">
+				<div class="text-center login-heading">Login</div>
+				<form name="loginForm" #loginForm="ngForm">
+					<div class="form-group mb-2">
+						<label class="form-label" for="userName">Username</label>
+						<input class="form-control" id="userName" name="userName" [(ngModel)]="loginFormObj.userName" #userNameRef="ngModel" required 
+						[ngClass]="userNameRef.errors?.['required'] && (userNameRef.touched || loginForm.submitted) ? 'border-danger' : '' ">
+					</div>
+
+					<div class="form-group mb-2">
+						<label class="form-label" for="password">Password</label>
+						<input class="form-control" id="password" name="password" [(ngModel)]="loginFormObj.password" #passRef="ngModel" required
+						[ngClass]="passRef.errors?.['required'] && (passRef.touched || loginForm.submitted) ? 'border-danger' : '' ">
+					</div>
+
+					<div class="submit-btn">
+						<button class="btn btn-primary" (click)="onLogin(loginForm.form)">Login</button>
+					</div>
+				</form>
+
+				<div class="register-opt mt-3 text-center">
+					Don't yet Registered! 
+					<a [routerLink]="'/auth/register'">Register Here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

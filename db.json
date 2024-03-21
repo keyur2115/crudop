@@ -1,0 +1,43 @@
+{
+  "category-data": [
+    {
+      "id": 1,
+      "image":"",
+      "name":"Bathroom Accessories",
+      "sequence_no":1,
+      "status":1,
+      "parent":null,
+      "children":[{
+        "id": 2,
+        "parent":1,
+        "name":"shower dispencer-1",
+        "sequence_no":1,
+        "image":"",
+         "children":[{
+          "id": 5,
+          "parent":2,
+          "name":"shower dispencer-1",
+          "sequence_no":1,
+          "image":""
+          }
+            ]
+      },
+      {
+        "id": 3,
+        "parent":1,
+        "name":"shower dispencer-2",
+        "sequence_no":2,
+        "image":""
+      },{
+        "id": 4,
+        "parent":1,
+        "name":"shower dispencer-3",
+        "sequence_no":3,
+        "image":""
+      }
+    ]
+
+    }
+  ]
+
+}

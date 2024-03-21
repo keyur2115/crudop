@@ -1,0 +1,36 @@
+.profile-pic {
+	width:35px;
+	height:35px;
+	border-radius: 50%;
+	margin-right: 25px;
+	overflow-x: hidden;
+}
+
+.admin {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.welcome {
+	font-size: .7rem;
+	font-weight: 400;
+}
+
+.icon-width {
+	display: inline-block;
+	width:40px;
+	font-size: 1.2rem;
+	padding-left: 12px;
+	margin-right: 25px;
+}
+
+.link-width {
+	overflow-x: hidden;
+}
+
+ul li {
+	display: flex;
+	align-items: center;
+	padding: 8px 0;
+}
+

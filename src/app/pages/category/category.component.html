@@ -1,0 +1,119 @@
+<div class="category-header d-flex justify-content-between align-items-center p-2 bg-light mt-2">
+	<div style="font-size: 1.2rem; font-weight: 600">
+		Category 
+	</div>
+	<div>
+		<button class="btn btn-primary btn-sm" (click)="openCatModal('Add', '')">
+			<i class="fa-solid fa-plus"></i>
+		</button>
+	</div>	
+</div>
+
+<!-- table-display data start -->
+<div class="display-table table-responsive pt-2">
+	<table class="table table-hover table-dark">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Image</th>
+				<th>Category Name</th>
+				<th>Child 1</th>
+				<th>Child 2</th>
+				<th>Sequence No.</th>
+				<th>Status</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<ng-container *ngFor="let parent of allCategoryData; let i = index;">
+				<tr>
+					<td>{{i+1}}</td>
+					<td>{{parent.image}}</td>
+					<td>{{parent.name}}</td>
+					<td></td>
+					<td></td>
+					<td>{{parent.sequence_no}}</td>
+					<td>{{parent.status}}</td>
+					<td>
+						<button class="btn btn-primary btn-sm me-2" (click)="openCatModal('child', parent)">
+								<i class="fa-solid fa-plus"></i>
+						</button>
+						<button class="btn btn-success btn-sm" (click)="openCatModal('Update', parent)">
+							<i class="fa-solid fa-pen"></i>
+						</button>
+					</td>
+				</tr>
+
+				<ng-container *ngFor="let child1 of parent.children; let j = index">
+					<tr>
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary">{{child1.image}}</td>
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary">{{child1.name}}</td>
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary">{{child1.sequence_no}}</td>
+						<td class="bg-secondary">{{child1.status}}</td>
+						<td class="bg-secondary">
+							<button class="btn btn-primary btn-sm me-2" (click)="openCatModal('child', child1)">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<button class="btn btn-success btn-sm" (click)="openCatModal('Update', parent)">
+								<i class="fa-solid fa-pen"></i>
+							</button>
+						</td>
+					</tr>
+
+					<tr *ngFor="let child2 of child1.children">
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary">{{child2.image}}</td>
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary"></td>
+						<td class="bg-secondary">{{child2.name}}</td>
+						<td class="bg-secondary">{{child2.sequence_no}}</td>
+						<td class="bg-secondary">{{child2.status}}</td>
+						<td class="bg-secondary">
+							<button class="btn btn-success btn-sm" (click)="openCatModal('Update', parent)">
+								<i class="fa-solid fa-pen"></i>
+							</button>
+						</td>
+					</tr>
+				</ng-container>
+			</ng-container>
+		</tbody>
+	</table>
+</div>
+
+<!-- category-modal start -->
+<div class="modal fade" id="category-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">{{modalLabel}} Category</h1>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+
+      <form name="categoryForm" #categoryForm="ngForm">
+	      <div class="modal-body" >
+	        	<div class="form-group mb-2" *ngIf="modalLabel == 'child'">
+	        		<label class="form-label" for="parent">Parent</label>
+	        		<input class="form-control" id="parent" name="parent" [(ngModel)]="categoryFormObj.parent" #parentRef="ngModel">
+	        	</div>	
+	        	<div class="form-group mb-2">
+	        		<label class="form-label" for="name">Name</label>
+	        		<input class="form-control" id="name" name="name" [(ngModel)]="categoryFormObj.name" #nameRef="ngModel">
+	        	</div>	
+	        	<div class="form-group ">
+	        		<label class="form-label" for="sequence_no">Sequence Number</label>
+	        		<input class="form-control" id="sequence_no" name="sequence_no" [(ngModel)]="categoryFormObj.sequence_no" #sequenceRef="ngModel">
+	        	</div>	
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+	        <button type="submit" class="btn btn-primary btn-sm" (click)="addCategory(categoryForm.form)">Save</button>
+	        <button type="submit" class="btn btn-success btn-sm" (click)="udpateCategory(categoryForm.form)">Update</button>
+	      </div>
+	  </form>
+    </div>
+  </div>
+</div>
