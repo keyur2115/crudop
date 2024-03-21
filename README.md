@@ -30,4 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Yesterday:
 => Worked on Zomber front, changes in home page banner and applied the redirect link on it.
 Today:
-=> Working on a zomber front, Applying the home page banner changes to other dashboard pages.
+=> Working on a zomber front, Applying the home page banner changes to other dashboard pages.# crudop
